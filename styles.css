@@ -550,7 +550,8 @@ h1 {
 
 .focus-grid,
 .service-grid,
-.stack-grid {
+.stack-grid,
+.toolkit-grid {
   display: grid;
   gap: 14px;
 }
@@ -568,7 +569,15 @@ h1 {
 }
 
 .stack-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.toolkit-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.toolkit-grid .stack-group {
+  max-width: 720px;
 }
 
 .focus-card,
@@ -1051,12 +1060,9 @@ h1 {
   .focus-grid,
   .service-grid,
   .stack-grid,
+  .toolkit-grid,
   .project-grid {
     grid-template-columns: 1fr;
-  }
-
-  .stack-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .gallery-grid {
@@ -1109,7 +1115,8 @@ h1 {
     flex-direction: column;
   }
 
-  .stack-grid {
+  .stack-grid,
+  .toolkit-grid {
     grid-template-columns: 1fr;
   }
 
