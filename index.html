@@ -4,21 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="light dark" />
-    <title>Kenneth M. Andallaza - Full Stack Developer</title>
+    <title>Kenneth M. Andallaza | Web Developer</title>
     <link rel="icon" type="image/png" href="assets/kenneth2x2.png" />
     <link rel="apple-touch-icon" href="assets/kenneth2x2.png" />
     <meta
       name="description"
-      content="A clean one-page portfolio template for a software engineer, product builder, and mentor."
+      content="Web developer portfolio of Kenneth M. Andallaza featuring responsive websites, dashboards, and real-world systems built for Tagum City."
     />
-    <meta property="og:title" content="Kenneth M. Andallaza - Full Stack Developer" />
+    <meta property="og:title" content="Kenneth M. Andallaza | Web Developer" />
     <meta
       property="og:description"
-      content="A compact personal portfolio with projects, experience, credentials, and gallery imagery."
+      content="Responsive web development, practical business tools, and real shipped projects by Kenneth M. Andallaza."
     />
     <meta property="og:image" content="assets/kenneth2x2.png" />
-    <meta name="theme-color" content="#f7f8fb" />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kenneth M. Andallaza | Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Responsive web development, practical business tools, and real shipped projects by Kenneth M. Andallaza."
+    />
+    <meta name="theme-color" content="#f4efe5" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260709-1" />
   </head>
   <body>
     <div class="page-shell">
@@ -28,15 +40,16 @@
             <span class="brand-mark">KA</span>
             <span class="brand-copy">
               <strong>Kenneth M. Andallaza</strong>
-              <span>Full Stack Developer</span>
+              <span>Web Developer</span>
             </span>
           </a>
 
           <nav class="nav" aria-label="Primary">
             <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#work">Projects</a>
+            <a href="#stack">Tech</a>
             <a href="#experience">Experience</a>
-            <a href="#work">Work</a>
-            <a href="#gallery">Gallery</a>
             <a href="#contact">Contact</a>
           </nav>
 
@@ -60,34 +73,34 @@
       </header>
 
       <main id="top">
-        <section class="container hero section">
+        <section class="container hero">
           <div class="hero-copy">
             <p class="eyebrow">
               <span class="eyebrow-dot"></span>
-              Available for select projects
+              Open to web developer roles and freelance work
             </p>
             <h1>Kenneth M. Andallaza</h1>
-            <p class="role">Full Stack Developer</p>
+            <p class="role">Web Developer focused on responsive websites, dashboards, and internal tools</p>
             <p class="lede">
-              I build calm, fast interfaces and the systems around them. My work sits at the
-              edge of design, engineering, and operations, with a bias for clear structure,
-              useful interactions, and shipping things that stay maintainable.
+              I build clean, practical web experiences that help teams work faster and communicate
+              better. My focus is web development with clear UI, solid structure, and systems that
+              feel easy to use from the first click.
             </p>
 
             <div class="hero-actions">
-              <a class="button button-primary" href="mailto:hello@yourname.dev">
+              <a class="button button-primary" href="mailto:andallazawrk@gmail.com?subject=Web%20Project%20Inquiry">
                 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                   <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                   <path d="M4.5 7l7.5 6 7.5-6"></path>
                 </svg>
-                Send Email
+                Hire Me
               </a>
               <a class="button button-secondary" href="#work">
                 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M5 12h14"></path>
                   <path d="M12 5l7 7-7 7"></path>
                 </svg>
-                View Work
+                View Projects
               </a>
               <a class="button button-ghost" href="#contact">
                 <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -96,24 +109,50 @@
                   <path d="M8 12h8"></path>
                   <path d="M8 16h5"></path>
                 </svg>
-                Start a Project
+                Let&rsquo;s Talk
               </a>
             </div>
 
-            <div class="hero-notes" aria-label="Highlights">
-              <span class="chip">Frontend systems</span>
-              <span class="chip">AI workflows</span>
-              <span class="chip">Internal tools</span>
-              <span class="chip">Workshops</span>
+            <div class="hero-proof" aria-label="Highlights">
+              <article class="proof-card">
+                <strong>4 featured projects</strong>
+                <span>Sample builds and live systems</span>
+              </article>
+              <article class="proof-card">
+                <strong>June 2026 graduate</strong>
+                <span>BS Information Technology</span>
+              </article>
+              <article class="proof-card">
+                <strong>Web development focus</strong>
+                <span>Frontend, backend, and UI delivery</span>
+              </article>
             </div>
           </div>
 
           <figure class="hero-visual">
-            <img
-              src="assets/kenneth2x2.png"
-              alt="Portrait of Kenneth M. Andallaza in formal attire"
-            />
-           
+            <div class="portrait-shell">
+              <img
+                src="assets/kenneth2x2.png"
+                alt="Portrait of Kenneth M. Andallaza in formal attire"
+              />
+            </div>
+
+            <figcaption class="hero-panel">
+              <article class="panel-card">
+                <p class="panel-label">Current focus</p>
+                <h2>Job-ready web development</h2>
+                <p>
+                  Looking for roles and projects where I can build responsive interfaces, improve
+                  business workflows, and keep shipping reliable work.
+                </p>
+              </article>
+
+              <ul class="availability-list" aria-label="Availability notes">
+                <li>Built real systems for Tagum City during OJT work</li>
+                <li>Comfortable with web apps, dashboards, and login-based flows</li>
+                <li>Available for junior roles, contract work, and freelance builds</li>
+              </ul>
+            </figcaption>
           </figure>
         </section>
 
@@ -121,46 +160,327 @@
           <div class="section-head">
             <div>
               <p class="section-label">About</p>
-              <h2>A graduating BSIT student building sharp systems with real-world polish.</h2>
+              <h2>Focused on useful web products, not filler.</h2>
             </div>
             <p class="section-summary">
-              I work where design, code, and communication meet, turning ideas into useful
-              systems that feel clean on the surface and strong underneath.
+              I combine visual clarity, practical backend thinking, and calm execution to build
+              web experiences that feel simple for users and dependable for the team behind them.
             </p>
           </div>
 
           <div class="about-grid">
             <div class="about-copy">
               <p>
-                I'm a graduating Bachelor of Science in Information Technology student who turns
-                messy ideas into polished digital work clients can trust. I care about structure,
-                speed, and clarity, so every result feels easy to use, sharp to look at, and
-                solid behind the scenes.
+                I recently graduated with a Bachelor of Science in Information Technology and I am
+                now pursuing web development roles where I can keep growing while contributing to
+                real product work.
               </p>
               <p>
-                My recent focus has been on modern frontends, workflow tools, and practical web
-                systems. I build dashboards, portals, internal apps, and automations that help
-                teams move faster, stay organized, and stand out without the extra noise.
+                The projects I enjoy most are websites, portals, dashboards, and workflow tools.
+                I care about responsive design, maintainable code, clean structure, and making the
+                interface feel clear for the people who depend on it every day.
               </p>
             </div>
 
-            <div class="snapshot-grid">
-              <article class="snapshot">
-                <p class="snapshot-label">Current focus</p>
-                <h3>Graduating BSIT</h3>
-                <p>Finishing my degree while sharpening interface design, full-stack execution, and delivery.</p>
+            <div class="focus-grid">
+              <article class="focus-card">
+                <p class="snapshot-label">What I build</p>
+                <h3>Business-ready web interfaces</h3>
+                <p>Responsive pages, dashboards, and portals designed to support real tasks.</p>
               </article>
-              <article class="snapshot">
-                <p class="snapshot-label">What I ship</p>
-                <h3>Practical web systems</h3>
-                <p>Portals, dashboards, internal tools, and automation that support real workflows.</p>
-              </article>
-              <article class="snapshot">
+              <article class="focus-card">
                 <p class="snapshot-label">How I work</p>
-                <h3>Clear, steady, fast</h3>
-                <p>Start with scope, move with focus, and refine until the result feels right.</p>
+                <h3>Clear, steady, collaborative</h3>
+                <p>I like structured handoff, thoughtful UI decisions, and delivery without chaos.</p>
+              </article>
+              <article class="focus-card">
+                <p class="snapshot-label">What matters most</p>
+                <h3>Usefulness over noise</h3>
+                <p>Fast loading, readable layouts, practical features, and code that stays manageable.</p>
               </article>
             </div>
+          </div>
+        </section>
+
+        <section id="services" class="container section">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Services</p>
+              <h2>Ways I can help teams and clients.</h2>
+            </div>
+            <p class="section-summary">
+              I am positioning my work around web development, especially the kind of projects that
+              need clear UI, dependable implementation, and practical business value.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <p class="service-kicker">01</p>
+              <h3>Responsive business websites</h3>
+              <p>
+                Clean frontends for companies, organizations, and personal brands that need a site
+                that feels modern, readable, and easy to trust.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Landing pages</span>
+                <span class="tag">Responsive UI</span>
+                <span class="tag">Frontend polish</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <p class="service-kicker">02</p>
+              <h3>Dashboards and internal tools</h3>
+              <p>
+                Interfaces for teams that need workflows, data views, forms, and operational tools
+                that stay organized and easy to navigate.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Dashboards</span>
+                <span class="tag">Forms</span>
+                <span class="tag">Workflow UI</span>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <p class="service-kicker">03</p>
+              <h3>Portals and login-based systems</h3>
+              <p>
+                Practical web systems with authentication flows, role-aware screens, and a user
+                experience that supports everyday operations.
+              </p>
+              <div class="tag-row">
+                <span class="tag">Authentication</span>
+                <span class="tag">Portals</span>
+                <span class="tag">System UI</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="work" class="container section">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Featured Projects</p>
+              <h2>Projects built around real workflows.</h2>
+            </div>
+            <p class="section-summary">
+              These projects show the kind of web work I want to keep doing: practical interfaces,
+              commerce and booking flows, clear structure, and tools built around real workflows.
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-media">
+                <img
+                  src="assets/servicehub-home.png"
+                  alt="ServiceHub homepage showing home service booking, categories, and featured services"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <div class="project-head">
+                  <div>
+                    <p class="project-kicker">Recent sample project</p>
+                    <h3>ServiceHub</h3>
+                  </div>
+                  <a
+                    class="project-link-pill"
+                    href="https://service-hub-3wx6.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live app
+                  </a>
+                </div>
+                <p class="project-summary">
+                  A responsive home-services booking platform where users can browse services, view
+                  details, create an account, and manage bookings through a clean multi-page flow.
+                </p>
+                <p class="project-detail">
+                  I built this as a modern web app sample focused on service discovery,
+                  authentication-aware navigation, booking UX, and mobile-friendly interface design
+                  that feels easy to use from the first screen.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Marketplace</span>
+                  <span class="tag">Bookings</span>
+                  <span class="tag">Authentication</span>
+                  <span class="tag">Responsive UI</span>
+                </div>
+                <a
+                  class="inline-link"
+                  href="https://service-hub-3wx6.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open live site
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media">
+                <img
+                  src="assets/marketlane-home.png"
+                  alt="MarketLane ecommerce storefront showing product collections and marketplace features"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <div class="project-head">
+                  <div>
+                    <p class="project-kicker">Featured sample project</p>
+                    <h3>MarketLane</h3>
+                  </div>
+                  <a
+                    class="project-link-pill"
+                    href="https://e-comm-proj.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live app
+                  </a>
+                </div>
+                <p class="project-summary">
+                  A polished ecommerce marketplace sample with product browsing, cart and checkout
+                  flows, order history, and role-aware admin tools for managing store operations.
+                </p>
+                <p class="project-detail">
+                  I built this project to show a fuller retail workflow, combining a customer-facing
+                  storefront with practical admin screens for products, inventory, orders, reports,
+                  and marketplace data.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Ecommerce</span>
+                  <span class="tag">Cart &amp; Checkout</span>
+                  <span class="tag">Admin Dashboard</span>
+                  <span class="tag">Responsive UI</span>
+                </div>
+                <a
+                  class="inline-link"
+                  href="https://e-comm-proj.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open live site
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media">
+                <img
+                  src="assets/lms-login-v2.png"
+                  alt="Leave Management System login page for Tagum City Hall"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <div class="project-head">
+                  <div>
+                    <p class="project-kicker">Live system</p>
+                    <h3>Leave Management System</h3>
+                  </div>
+                  <a
+                    class="project-link-pill"
+                    href="https://tagumcity.gov.ph/lms/login"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live page
+                  </a>
+                </div>
+                <p class="project-summary">
+                  A city HR leave portal with workflow-driven login and form access built for a
+                  real organizational process.
+                </p>
+                <p class="project-detail">
+                  I focused on a clean entry experience, practical page structure, and a UI that
+                  supports staff workflows without unnecessary friction.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Quasar</span>
+                  <span class="tag">Laravel</span>
+                  <span class="tag">REST API</span>
+                  <span class="tag">Workflow UI</span>
+                </div>
+                <a
+                  class="inline-link"
+                  href="https://tagumcity.gov.ph/lms/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open live site
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-media">
+                <img
+                  src="assets/onetagumvision-home-v2.png"
+                  alt="OneTagumVision login page for Tagum City digital infrastructure monitoring"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <div class="project-head">
+                  <div>
+                    <p class="project-kicker">Live portal</p>
+                    <h3>OneTagumVision</h3>
+                  </div>
+                  <a
+                    class="project-link-pill"
+                    href="https://onetagumvision.com/accounts/login/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Visit live page
+                  </a>
+                </div>
+                <p class="project-summary">
+                  A digital monitoring portal and login experience built around Tagum City&rsquo;s
+                  infrastructure and operations context.
+                </p>
+                <p class="project-detail">
+                  This project highlights my interest in web systems that combine interface clarity,
+                  authentication flow, and an experience that feels stable and easy to understand.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Portal</span>
+                  <span class="tag">Authentication</span>
+                  <span class="tag">Monitoring</span>
+                  <span class="tag">Responsive UI</span>
+                </div>
+                <a
+                  class="inline-link"
+                  href="https://onetagumvision.com/accounts/login/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open live site
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -168,16 +488,16 @@
           <div class="section-head">
             <div>
               <p class="section-label">Experience</p>
-              <h2>Training, education, and first steps.</h2>
+              <h2>Education, client work, and hands-on delivery.</h2>
             </div>
             <p class="section-summary">
-              A quick look at the path I have been building through school, OJT work, and early
-              coding practice.
+              I am early in my career, but the path already includes academic training, freelance
+              work, and real implementation experience on live systems.
             </p>
           </div>
 
           <div class="experience-panel">
-            <p class="experience-panel-label">Experience</p>
+            <p class="experience-panel-label">Timeline</p>
 
             <div class="experience-list">
               <article class="experience-entry">
@@ -185,11 +505,15 @@
                 <div class="experience-content">
                   <div class="experience-row">
                     <div>
-                      <h3>Programmer OJT</h3>
-                      <p>City Government of Tagum</p>
+                      <h3>Freelance WordPress Web Designer</h3>
+                      <p>Remote</p>
                     </div>
-                    <span class="experience-date">February 2026 - May 2026</span>
+                    <span class="experience-date">February 2022 - April 2022</span>
                   </div>
+                  <p class="experience-detail">
+                    Built and customized website layouts for clients, strengthening my foundation in
+                    responsive design, structure, and delivering visually clean pages.
+                  </p>
                 </div>
               </article>
 
@@ -201,8 +525,12 @@
                       <h3>BS Information Technology</h3>
                       <p>Davao del Norte State College</p>
                     </div>
-                    <span class="experience-date">Expected Graduation: June 2026</span>
+                    <span class="experience-date">August 2022</span>
                   </div>
+                  <p class="experience-detail">
+                    Started my first year at Davao del Norte State College, building my foundation
+                    in information technology, programming, and web development.
+                  </p>
                 </div>
               </article>
 
@@ -211,11 +539,15 @@
                 <div class="experience-content">
                   <div class="experience-row">
                     <div>
-                      <h3>WordPress Web Designer</h3>
-                      <p>Freelance - Remote</p>
+                      <h3>Independent Practice and Personal Projects</h3>
+                      <p>Continuous learning</p>
                     </div>
-                    <span class="experience-date">February 2022 - April 2022</span>
+                    <span class="experience-date">2022 - Present</span>
                   </div>
+                  <p class="experience-detail">
+                    Continued building skills through self-driven web projects, experimentation, and
+                    steady practice in both frontend and system-oriented development.
+                  </p>
                 </div>
               </article>
 
@@ -224,11 +556,33 @@
                 <div class="experience-content">
                   <div class="experience-row">
                     <div>
-                      <h3>Hello World! &#128075;</h3>
-                      <p>Wrote my first line of code</p>
+                      <h3>Programmer Intern (OJT)</h3>
+                      <p>City Government of Tagum</p>
                     </div>
-                    <span class="experience-date">2022</span>
+                    <span class="experience-date">February 2026 - May 2026</span>
                   </div>
+                  <p class="experience-detail">
+                    Contributed to web system work tied to real city operations, supporting UI
+                    delivery, implementation tasks, and practical workflow-oriented development.
+                  </p>
+                </div>
+              </article>
+
+              <article class="experience-entry">
+                <div class="experience-marker" aria-hidden="true"><span></span></div>
+                <div class="experience-content">
+                  <div class="experience-row">
+                    <div>
+                      <h3>BS Information Technology Graduate</h3>
+                      <p>Davao del Norte State College</p>
+                    </div>
+                    <span class="experience-date">June 26, 2026</span>
+                  </div>
+                  <p class="experience-detail">
+                    Graduated from Davao del Norte State College with a focus on practical
+                    systems, web development, and turning technical requirements into usable
+                    interfaces.
+                  </p>
                 </div>
               </article>
             </div>
@@ -239,10 +593,11 @@
           <div class="section-head">
             <div>
               <p class="section-label">Tech Stack</p>
-              <h2>Tools I reach for most often.</h2>
+              <h2>Tools I use to build for the web.</h2>
             </div>
             <p class="section-summary">
-              Swap these out with your real stack, specialties, and preferred workflow.
+              These are the technologies I reach for when building responsive websites, system
+              interfaces, and API-connected experiences.
             </p>
           </div>
 
@@ -259,143 +614,51 @@
                 <span class="chip">Vite</span>
               </div>
             </article>
+
             <article class="stack-group">
               <h3>Backend</h3>
               <div class="stack-chips">
                 <span class="chip">Node.js</span>
                 <span class="chip">PHP</span>
+                <span class="chip">Laravel</span>
                 <span class="chip">Python</span>
                 <span class="chip">REST APIs</span>
               </div>
             </article>
+
             <article class="stack-group">
-              <h3>Database &amp; Tools</h3>
+              <h3>Database &amp; Workflow</h3>
               <div class="stack-chips">
-                <span class="chip">PostgreSQL</span>
                 <span class="chip">MySQL</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">GitHub</span>
                 <span class="chip">GitHub Actions</span>
                 <span class="chip">Docker</span>
-                <span class="chip">Cloudflare</span>
                 <span class="chip">Figma</span>
-                <span class="chip">Notion</span>
+              </div>
+            </article>
+
+            <article class="stack-group">
+              <h3>AI-Assisted Workflow</h3>
+              <div class="stack-chips">
+                <span class="chip">ChatGPT</span>
+                <span class="chip">Cursor</span>
+                <span class="chip">Codex</span>
+                <span class="chip">Claude AI</span>
               </div>
             </article>
           </div>
         </section>
-
-        <section id="work" class="container section">
-          <div class="section-head">
-            <div>
-              <p class="section-label">Recent Projects</p>
-              <h2>Completed systems shipped recently.</h2>
-            </div>
-            <p class="section-summary">
-              Two live projects I completed for Tagum City.
-            </p>
-          </div>
-
-          <div class="project-grid">
-            <article class="project-card">
-              <img
-                src="assets/lms-login-v2.png"
-                alt="Leave Management System login page for Tagum City Hall"
-              />
-              <div class="project-body">
-                <div class="project-head">
-                  <h3>Leave Management System</h3>
-                  <a
-                    class="project-kicker"
-                    href="https://tagumcity.gov.ph/lms/login"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    tagumcity.gov.ph/lms/login
-                  </a>
-                </div>
-                <p>
-                  HR leave management with workflow automation and API integration.
-                </p>
-                <div class="tag-row">
-                  <span class="tag">Quasar</span>
-                  <span class="tag">Laravel</span>
-                  <span class="tag">REST API</span>
-                </div>
-                <a class="inline-link" href="https://tagumcity.gov.ph/lms/login" target="_blank" rel="noreferrer">
-                  Open live site
-                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <img
-                src="assets/onetagumvision-home-v2.png"
-                alt="OneTagumVision login page for Tagum City digital infrastructure monitoring"
-              />
-              <div class="project-body">
-                <div class="project-head">
-                  <h3>OneTagumVision</h3>
-                  <a
-                    class="project-kicker"
-                    href="https://onetagumvision.com/accounts/login/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    onetagumvision.com/accounts/login/
-                  </a>
-                </div>
-                <p>
-                  Tagum City's digital infrastructure monitoring portal and login experience.
-                </p>
-                <div class="tag-row">
-                  <span class="tag">Portal</span>
-                  <span class="tag">Authentication</span>
-                  <span class="tag">Monitoring</span>
-                </div>
-                <a
-                  class="inline-link"
-                  href="https://onetagumvision.com/accounts/login/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Open live site
-                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </article>
-          </div>
-        </section>
-
-        <section id="certifications" class="container section">
-          <div class="section-head">
-            <div>
-              <p class="section-label">Recent Certifications</p>
-              <h2>Learning signals and credibility markers.</h2>
-            </div>
-            <p class="section-summary">Ongoing.</p>
-          </div>
-
-          <div class="cert-status">
-            <span class="chip">Ongoing</span>
-          </div>
-        </section>
-
-        
 
         <section id="gallery" class="container section">
           <div class="section-head">
             <div>
-              <p class="section-label">Gallery</p>
-              <h2>Studio, workshop, and planning moments.</h2>
+              <p class="section-label">Field Notes</p>
+              <h2>Snapshots from learning, building, and showing up.</h2>
             </div>
             <p class="section-summary">
-              The layout here mirrors the dense, image-led cadence of the reference portfolio.
+              A few moments from real work, training, and hands-on development that reflect how I
+              like to learn and contribute.
             </p>
           </div>
 
@@ -404,68 +667,74 @@
               <img
                 src="assets/gallery-certificate.jpg"
                 alt="Certificate completion photo from the City Information and Communications Technology Management Office"
+                loading="lazy"
               />
             </figure>
             <figure class="gallery-item">
               <img
                 src="assets/gallery-cert-group.jpg"
                 alt="Group photo holding certificates inside the City Information and Communications Technology Management Office"
+                loading="lazy"
               />
             </figure>
             <figure class="gallery-item">
               <img
                 src="assets/gallery-office-team.jpg"
                 alt="Team photo in an office conference room with certificates and staff members"
+                loading="lazy"
               />
             </figure>
             <figure class="gallery-item">
               <img
                 src="assets/gallery-coding-session.jpg"
                 alt="Developer working on a laptop during a coding session in the office"
+                loading="lazy"
               />
             </figure>
           </div>
+
+          <p class="gallery-note">
+            I want the site to show not only what I built, but also the kind of teammate I aim to
+            be: present, dependable, and always improving through real work.
+          </p>
+          <button class="button button-secondary gallery-open" type="button" data-gallery-open>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+              <path d="M7 8h.01"></path>
+              <path d="M3 16l5-5 4 4 3-3 6 6"></path>
+            </svg>
+            View Full Gallery
+          </button>
         </section>
 
         <section id="contact" class="container section contact-band">
           <div class="contact-copy">
             <p class="section-label">Contact</p>
-            <h2>Ready for the real version of this site.</h2>
+            <h2>Let&rsquo;s build something useful for the web.</h2>
             <p>
-              Swap in your own name, links, projects, and photos, then publish it whenever you are
-              ready.
+              I am currently open to junior web developer roles, contract work, and freelance web
+              projects. If you need a responsive website, dashboard, or practical internal tool, I
+              would love to hear about it.
             </p>
+            <a class="contact-email" href="mailto:andallazawrk@gmail.com">
+              andallazawrk@gmail.com
+            </a>
           </div>
 
           <div class="contact-actions">
-            <a class="button button-primary" href="mailto:andallazaforwork@gmail.com">
+            <a class="button button-primary" href="mailto:andallazawrk@gmail.com?subject=Job%20Opportunity">
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
                 <rect x="3" y="5" width="18" height="14" rx="2"></rect>
                 <path d="M4.5 7l7.5 6 7.5-6"></path>
               </svg>
-              Send Email
+              Email Me
             </a>
-            <a class="button button-secondary" href="https://calendly.com/" target="_blank" rel="noreferrer">
+            <a class="button button-secondary" href="#work">
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="3.5" y="5.5" width="17" height="15" rx="2"></rect>
-                <path d="M8 3.5v4"></path>
-                <path d="M16 3.5v4"></path>
-                <path d="M3.5 10h17"></path>
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
               </svg>
-              Book a Call
-            </a>
-            <a class="button button-ghost" href="https://blog.example.com" target="_blank" rel="noreferrer">
-              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M8 5h10"></path>
-                <path d="M8 9h10"></path>
-                <path d="M8 13h10"></path>
-                <path d="M8 17h6"></path>
-                <path d="M4 5h.01"></path>
-                <path d="M4 9h.01"></path>
-                <path d="M4 13h.01"></path>
-                <path d="M4 17h.01"></path>
-              </svg>
-              Read Notes
+              Review Projects
             </a>
           </div>
         </section>
@@ -473,16 +742,204 @@
 
       <footer class="footer">
         <div class="container footer-inner">
-          <p>&copy; <span id="year"></span> Your Name</p>
+          <p>&copy; <span id="year"></span> Kenneth M. Andallaza</p>
           <div class="footer-links">
-            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="#services">Services</a>
+            <a href="#work">Projects</a>
+            <a href="#stack">Tech</a>
+            <a href="mailto:andallazawrk@gmail.com">Email</a>
           </div>
         </div>
       </footer>
     </div>
 
-    <script src="script.js"></script>
+    <dialog class="gallery-modal" data-gallery-modal aria-labelledby="gallery-modal-title">
+      <div class="gallery-modal-shell">
+        <div class="gallery-modal-head">
+          <div>
+            <p class="section-label">Field Notes</p>
+            <h2 id="gallery-modal-title">Full Gallery</h2>
+          </div>
+          <button class="gallery-close" type="button" data-gallery-close aria-label="Close gallery">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="modal-gallery-grid">
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/gallery-certificate.jpg"
+              alt="Certificate completion photo from the City Information and Communications Technology Management Office"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/gallery-cert-group.jpg"
+              alt="Group photo holding certificates inside the City Information and Communications Technology Management Office"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/gallery-office-team.jpg"
+              alt="Team photo in an office conference room with certificates and staff members"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/gallery-coding-session.jpg"
+              alt="Developer working on a laptop during a coding session in the office"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/52dd9ee6-d589-4a2d-9c86-88e0b1c6c483.jfif"
+              alt="OneTagumVision project location selection map modal"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/681316794_1291813713152547_1616700370154622467_n.png"
+              alt="Leave Management System leave application form modal"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/684151579_1484581003360808_1221628105091750284_n.png"
+              alt="Leave Management System administrator dashboard with leave trend charts"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/684261296_1304347021864824_2088590087286133916_n.png"
+              alt="Leave Management System HR dashboard with manpower and leave charts"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/684978688_26751904887793561_9040646479081009898_n.png"
+              alt="Leave Management System dashboard and application analytics screen"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/685148299_1658176532167446_7743131517655308268_n.png"
+              alt="Leave Management System leave request and approval interface"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/689837559_1665366524780532_8844502719898168925_n.png"
+              alt="Leave Management System administrative menu and reporting dashboard"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/A%20GIS-Driven%20Platform%20for%20Project%20Monitoring%20and%20Visualization%20for%20the%20City%20Government%20of%20Tagum.png"
+              alt="GIS-driven project monitoring platform screenshot"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/bfbcbda5-1f83-424a-850a-0f7409bee38e.jfif"
+              alt="OneTagumVision project management table with GIS controls"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-06-22%20223317.png"
+              alt="OneTagumVision head engineer dashboard with GIS map and project status cards"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-06-22%20223506.png"
+              alt="OneTagumVision city overview map with barangay project markers"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-06-22%20223519.png"
+              alt="OneTagumVision analytics dashboard with charts and project cost summaries"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-06-22%20223551.png"
+              alt="OneTagumVision reports dashboard showing budget and project insights"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-07-08%20200156.png"
+              alt="OneTagumVision project engineer dashboard with assigned project metrics"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-07-08%20200220.png"
+              alt="OneTagumVision project map with colored project pins and status filters"
+              loading="lazy"
+            />
+          </figure>
+          <figure class="modal-gallery-item" data-lightbox-item>
+            <img
+              src="assets/images%20for%20proj/Screenshot%202026-07-08%20200239.png"
+              alt="OneTagumVision project reports page with progress and update summaries"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
+
+      <div class="lightbox" data-lightbox hidden>
+        <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image view">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+        <button class="lightbox-nav lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m15 18-6-6 6-6"></path>
+          </svg>
+        </button>
+        <figure class="lightbox-frame">
+          <img
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACw="
+            alt="Selected gallery image"
+            data-lightbox-image
+          />
+          <figcaption data-lightbox-caption></figcaption>
+        </figure>
+        <button class="lightbox-nav lightbox-next" type="button" data-lightbox-next aria-label="Next image">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 18 6-6-6-6"></path>
+          </svg>
+        </button>
+      </div>
+    </dialog>
+
+    <script src="script.js?v=20260709-1"></script>
   </body>
 </html>
